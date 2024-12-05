@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chúng tớ là 12A1</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+            color: #34495e;
+        }
+        h1, h2 {
+            text-align: center;
+            margin: 10px 0;
+        }
+        h1 {
+            font-size: 3rem;
+            color: #2c3e50;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            font-size: 1.8rem;
+            color: #2980b9;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        .content {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 25px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Images and Video */
+        img, iframe {
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+        img {
+            border: 5px solid #3498db;
+        }
+        iframe {
+            border: none;
+            width: 100%;
+            max-width: 500px;
+        }
+
+        /* Table Styles */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: #fdfdfd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            border: 1px solid #ddd;
+            text-align: center;
+            padding: 10px;
+        }
+        th {
+            background: #2980b9;
+            color: white;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        input, select {
+            width: 90%;
+            padding: 8px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        /* Social Icons */
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .social-icons a img {
+            width: 40px;
+            height: auto;
+            transition: transform 0.3s;
+        }
+        .social-icons a img:hover {
+            transform: scale(1.2);
+        }
+
+        /* Rating Stars */
+        .rating {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .rating input {
+            display: none;
+        }
+        .rating label {
+            font-size: 2rem;
+            color: #ccc;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+        .rating input:checked ~ label,
+        .rating label:hover,
+        .rating label:hover ~ label {
+            color: #ffcc00;
+        }
+        .result {
+            margin-top: 10px;
+            font-size: 1.2rem;
+            text-align: center;
+            color: #16a085;
+            font-weight: bold;
+        }
+
+        /* Footer */
+        footer {
+            background: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 0 0 8px 8px;
+        }
+        footer a {
+            color: #f39c12;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>NGẠO NGHỄ A1</h1>
+    <h2><em><u>Niên khóa:</u> K47 - 2022 - 2025</em></h2>
+    <div class="content">
+        <section id="gioithieu">
+            <h2 class="section-title">Giới thiệu về lớp học</h2>
+         <section id="gioithieu">
+            <h2 class="section-title">Giới thiệu về lớp học</h2>
+            <p class="formatted"><li> GVCN: Lê Thị Bích Huyền</li></p>
+            <p class="formatted"><li> Sĩ số: 44</li></p>
+            <img src="https://i.pinimg.com/736x/58/75/b3/5875b3bc79cac3c6942048e04958effd.jpg" alt="Ảnh lớp" width="500">
+            <iframe 
+                src="https://www.tiktok.com/embed/7287098924513479937" 
+                width="325" 
+                height="580" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+            </iframe>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100089134497989" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/2048px-2023_Facebook_icon.svg.png" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/khuyettatsinhli/" target="_blank">
+                    <img src="https://brasol.vn/wp-content/uploads/2022/09/logo-instagram-vector.jpg" alt="Instagram">
+                </a>
+                <a href="https://www.tiktok.com/@ngaonghea1k47pvd" target="_blank">
+                    <img src="https://cdn.pixabay.com/photo/2021/06/15/12/28/tiktok-6338432_960_720.png" alt="TikTok">
+                </a>
+            </div>
+            <p>Điền form dưới đây để cho chúng mình biết bạn:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Họ và tên</th>
+                        <th>Giới tính</th>
+                        <th>Ngày sinh</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" name="name1" placeholder="Nhập họ tên"></td>
+                        <td>
+                            <select name="gender1">
+                                <option value="Nữ">Nữ</option>
+                                <option value="Nam">Nam</option>
+                            </select>
+                        </td>
+                        <td><input type="date" name="dob1"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="rating">
+                <input type="radio" name="star" id="star5" value="5"><label for="star5">★</label>
+                <input type="radio" name="star" id="star4" value="4"><label for="star4">★</label>
+                <input type="radio" name="star" id="star3" value="3"><label for="star3">★</label>
+                <input type="radio" name="star" id="star2" value="2"><label for="star2">★</label>
+                <input type="radio" name="star" id="star1" value="1"><label for="star1">★</label>
+            </div>
+            <div class="result" id="result">Đánh giá cái ổ rắn này</div>
+            <p>Nếu bạn nhấn nút "Gửi đi", dữ liệu của biểu mẫu sẽ gửi tới trang "/ngaonghea1.html".</p>
+            <button type="submit" style="padding: 10px 20px; background-color: #3498db; color: white; border: none; border-radius: 5px; font-size: 1rem; cursor: pointer;">Gửi đi</button>
+            <p>Học sinh thực hiện:</p>
+            <ul>
+                <li><em>Xuân Nhi</em></li>
+                <li><em>Minh Nhật</em></li>
+                <li><em>Bảo Châu</em></li>
+                <li><em>Thanh Thảo</em></li>
+            </ul>
+        </section>
+        <footer>
+            &copy; 2024 THPT Phạm Văn Đồng - Lớp 12A1 <br>
+            <a href="#">Về đầu trang</a>
+        </footer>
+    </div>
+
+    <script>
+        const stars = document.querySelectorAll('.rating input');
+        const result = document.getElementById('result');
+        stars.forEach(star => {
+            star.addEventListener('change', () => {
+                result.textContent = `Phải ${star.value} sao${star.value > 1 ? '' : ''} không đó`;
+            });
+        });
+    </script>
+    <a href="path-to-your-page.html" target="_blank" title="Ngạo nghễ A1">Ngạo nghễ A1</a>
+</body>
+</html>
